@@ -1,0 +1,65 @@
+.container-fluid {
+  height: 100%;
+}
+
+.thankyou {
+  height: 100%;
+  width: 100%;
+  background-color: #E6E6E6;
+  margin-bottom: 0;
+}
+
+.header-title {
+  padding-top: 15px;
+  width: 100%;
+  background-color: #2B2E33;
+  border-bottom: 2px solid #E6E6E6;
+  text-align: center;
+}
+.header-title a{
+  font-size: 50px;
+  color: white;
+  font-family: 'Guilty Treasure', sans-serif;
+  text-transform: uppercase;
+}
+
+.center-thanks {
+  height:100%;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+}
+.center-thanks h5 {
+  font-weight: bold;
+}
+
+.conf-message {
+  padding: 20px 20px 0px 20px;
+}
+#return {
+  margin: 0 auto;
+  width: 50%;
+  height: 30px;
+  color: white;
+  background-color: #d68f20;
+}
+
+#return p {
+  padding-top: 4px;
+}
+.footer-social.footer-thankyou {
+  padding-top: 10px;
+  background-color: white;
+}
+.footer-social.footer-thankyou ul {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .center-thanks {
+    width: 100%;
+  }
+}
